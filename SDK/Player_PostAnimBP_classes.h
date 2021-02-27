@@ -1,0 +1,42 @@
+// AnimBlueprintGeneratedClass Player_PostAnimBP.Player_PostAnimBP_C
+// Size: 0x4ca0 (Inherited: 0x300)
+struct UPlayer_PostAnimBP_C : UMadPlayerPostAnimInstance {
+	struct FPointerToUberGraphFrame UberGraphFrame; // 0x300(0x08)
+	struct FAnimNode_Root AnimGraphNode_Root; // 0x308(0x30)
+	struct FAnimNode_LinkedInputPose AnimGraphNode_SubInput; // 0x338(0x78)
+	struct FAnimNode_RotationMultiplier AnimGraphNode_RotationMultiplier_8; // 0x3b0(0xf8)
+	struct FAnimNode_RotationMultiplier AnimGraphNode_RotationMultiplier_7; // 0x4a8(0xf8)
+	struct FAnimNode_AnimDynamics AnimGraphNode_AnimDynamics_13; // 0x5a0(0x450)
+	struct FAnimNode_AnimDynamics AnimGraphNode_AnimDynamics_12; // 0x9f0(0x450)
+	struct FAnimNode_AnimDynamics AnimGraphNode_AnimDynamics_11; // 0xe40(0x450)
+	struct FAnimNode_BoneDrivenController AnimGraphNode_BoneDrivenController_6; // 0x1290(0x120)
+	struct FAnimNode_BoneDrivenController AnimGraphNode_BoneDrivenController_5; // 0x13b0(0x120)
+	struct FAnimNode_BoneDrivenController AnimGraphNode_BoneDrivenController_4; // 0x14d0(0x120)
+	struct FAnimNode_BoneDrivenController AnimGraphNode_BoneDrivenController_3; // 0x15f0(0x120)
+	struct FAnimNode_BoneDrivenController AnimGraphNode_BoneDrivenController_2; // 0x1710(0x120)
+	struct FAnimNode_AnimDynamics AnimGraphNode_AnimDynamics_10; // 0x1830(0x450)
+	struct FAnimNode_AnimDynamics AnimGraphNode_AnimDynamics_9; // 0x1c80(0x450)
+	struct FAnimNode_AnimDynamics AnimGraphNode_AnimDynamics_8; // 0x20d0(0x450)
+	struct FAnimNode_AnimDynamics AnimGraphNode_AnimDynamics_7; // 0x2520(0x450)
+	struct FAnimNode_AnimDynamics AnimGraphNode_AnimDynamics_6; // 0x2970(0x450)
+	struct FAnimNode_BoneDrivenController AnimGraphNode_BoneDrivenController; // 0x2dc0(0x120)
+	struct FAnimNode_AnimDynamics AnimGraphNode_AnimDynamics_5; // 0x2ee0(0x450)
+	struct FAnimNode_AnimDynamics AnimGraphNode_AnimDynamics_4; // 0x3330(0x450)
+	struct FAnimNode_AnimDynamics AnimGraphNode_AnimDynamics_3; // 0x3780(0x450)
+	struct FAnimNode_AnimDynamics AnimGraphNode_AnimDynamics_2; // 0x3bd0(0x450)
+	struct FAnimNode_ConvertLocalToComponentSpace AnimGraphNode_LocalToComponentSpace; // 0x4020(0x20)
+	struct FAnimNode_RotationMultiplier AnimGraphNode_RotationMultiplier_6; // 0x4040(0xf8)
+	struct FAnimNode_RotationMultiplier AnimGraphNode_RotationMultiplier_5; // 0x4138(0xf8)
+	struct FAnimNode_RotationMultiplier AnimGraphNode_RotationMultiplier_4; // 0x4230(0xf8)
+	struct FAnimNode_RotationMultiplier AnimGraphNode_RotationMultiplier_3; // 0x4328(0xf8)
+	struct FAnimNode_RotationMultiplier AnimGraphNode_RotationMultiplier_2; // 0x4420(0xf8)
+	struct FAnimNode_RotationMultiplier AnimGraphNode_RotationMultiplier; // 0x4518(0xf8)
+	struct FAnimNode_AnimDynamics AnimGraphNode_AnimDynamics; // 0x4610(0x450)
+	struct FAnimNode_ConvertComponentToLocalSpace AnimGraphNode_ComponentToLocalSpace; // 0x4a60(0x20)
+	struct FAnimNode_ModifyBone AnimGraphNode_ModifyBone_2; // 0x4a80(0x110)
+	struct FAnimNode_ModifyBone AnimGraphNode_ModifyBone; // 0x4b90(0x110)
+
+	void AnimGraph(struct FPoseLink InPose, struct FPoseLink AnimGraph); // Function Player_PostAnimBP.Player_PostAnimBP_C.AnimGraph // (HasOutParms|BlueprintCallable|BlueprintEvent) // @ game+0x1a35c70
+	void ExecuteUbergraph_Player_PostAnimBP(int32_t EntryPoint); // Function Player_PostAnimBP.Player_PostAnimBP_C.ExecuteUbergraph_Player_PostAnimBP // (Final|UbergraphFunction) // @ game+0x1a35c70
+};
+
